@@ -1,0 +1,84 @@
+SW00012345XYZ | CHANGED | rc=0 >>
+NAME: "1", DESCR: "WS-C2960G-48TC-L"
+PID: WS-C2960G-48TC-L  , VID: V06, SN: FOC1234X0PQ
+
+NAME: "GigabitEthernet0/47", DESCR: "1000BaseSX SFP"
+PID:                     , VID:     , SN: FOC1235X1PQ
+
+NAME: "GigabitEthernet0/48", DESCR: "1000BaseSX SFP"
+PID:                     , VID:     , SN: FOC1236X2PQ
+
+Shared connection to sw00012345xyz closed.
+
+SW004321XYZ11 | CHANGED | rc=0 >>
+NAME: "1", DESCR: "WS-C2960G-48TC-L"
+PID: WS-C2960G-48TC-L  , VID: V04, SN: FOC1237X3PQ
+
+NAME: "GigabitEthernet0/47", DESCR: "1000BaseSX SFP"
+PID:                     , VID:     , SN: FOC1238X4PQ
+
+NAME: "GigabitEthernet0/48", DESCR: "1000BaseSX SFP"
+PID:                     , VID:     , SN: FOC1239X5PQ
+
+Shared connection to sw004321xyz11 closed.
+
+SW52MNPQ | CHANGED | rc=0 >>
+NAME: "Chassis",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis "
+PID: N7K-C7010           ,  VID: V02 ,  SN: FOC1240X6PQ
+
+NAME: "Slot 1",  DESCR: "10 Gbps Ethernet Module"
+PID: N7K-M132XP-12       ,  VID: V14 ,  SN: FOC1241X7PQ
+
+NAME: "Slot 2",  DESCR: "10 Gbps Ethernet Module"
+PID: N7K-M132XP-12       ,  VID: V14 ,  SN: FOC1242X8PQ
+
+NAME: "Slot 4",  DESCR: "10 Gbps Ethernet Module"
+PID: N7K-M132XP-12       ,  VID: V10 ,  SN: FOC1243X9PQ
+
+NAME: "Slot 5",  DESCR: "Supervisor module-1X"
+PID: N7K-SUP1            ,  VID: V09 ,  SN: FOC1244X10PQ
+
+NAME: "Slot 6",  DESCR: "Supervisor module-1X"
+PID: N7K-SUP1            ,  VID: V07 ,  SN: FOC1245X11PQ
+
+NAME: "Slot 7",  DESCR: "10 Gbps Ethernet Module"
+PID: N7K-M132XP-12       ,  VID: V10 ,  SN: FOC1246X12PQ
+
+NAME: "Slot 8",  DESCR: "10 Gbps Ethernet Module"
+PID: N7K-M132XP-12       ,  VID: V12 ,  SN: FOC1247X13PQ
+
+NAME: "Slot 9",  DESCR: "10 Gbps Ethernet Module"
+PID: N7K-M132XP-12       ,  VID: V12 ,  SN: FOC1248X14PQ
+
+NAME: "Slot 11",  DESCR: "Fabric card module"
+PID: N7K-C7010-FAB-1     ,  VID: V03 ,  SN: FOC1249X15PQ
+
+NAME: "Slot 12",  DESCR: "Fabric card module"
+PID: N7K-C7010-FAB-1     ,  VID: V03 ,  SN: FOC1250X16PQ
+
+NAME: "Slot 13",  DESCR: "Fabric card module"
+PID: N7K-C7010-FAB-1     ,  VID: V03 ,  SN: FOC1251X17PQ
+
+NAME: "Slot 33",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Power Supply"
+PID: N7K-AC-7.5KW-INT    ,  VID: V01 ,  SN: FOC1252X18PQ
+
+NAME: "Slot 34",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Power Supply"
+PID: N7K-AC-7.5KW-INT    ,  VID: V01 ,  SN: FOC1253X19PQ
+
+NAME: "Slot 35",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Power Supply"
+PID: N7K-AC-7.5KW-INT    ,  VID: V01 ,  SN: FOC1254X20PQ
+
+NAME: "Slot 36",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Fan Module"
+PID: N7K-C7010-FAN-S     ,  VID: V01 ,  SN: FOC1255X21PQ
+
+NAME: "Slot 37",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Fan Module"
+PID: N7K-C7010-FAN-S     ,  VID: V01 ,  SN: FOC1256X22PQ
+
+NAME: "Slot 38",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Fan Module"
+PID: N7K-C7010-FAN-F     ,  VID: V02 ,  SN: FOC1257X23PQ
+
+NAME: "Slot 39",  DESCR: "Nexus7000 C7010 (10 Slot) Chassis Fan Module"
+PID: N7K-C7010-FAN-F     ,  VID: V02 ,  SN: FOC1258X24PQ
+
+User Access Verification
+Shared connection to sw52mnpq closed.
