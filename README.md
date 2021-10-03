@@ -35,7 +35,10 @@ Parte 3:
 O primeiro passo para realizar as consultas via API foi a criação de credenciais no site do fabricante, para a partir daí gerar o token para as consultas.
 Então, foram criadas funções para as consultas baseadas no número de série e na identificação dos produtos. Durante a execução do script, usando loop para realizar as consultas linha por linha foi observado que a API só respondia as primeiras consultas e posteriormente apresentava erros que interrompiam a execução do código. Além disso, outros erros apareceram, como token expirado, falta de parâmetros ou parâmetros não esperados na consulta via API. Na saída do comando de inventário dos equipamemtos algumas informações estavam em branco ou como N/A.  Posteriormente, foram criadas novas funções para uso do "apply" no Pandas (get_coverage/query_coverage e get_eos/query_eos). Dentro dessas funções tem condições e exceções para lidar com a maioria dos erros. O desempenho melhorou consideravelmente e não ocorreram mais interrupções na execução do código. 
 
-Importante lembrar algumas restrições das consultas via API: a)o token emitido pelo fabricante é válido por 3599 segundos, b) há um limite de 1000 consultas de número de série por dia (SN2Info - https://api.cisco.com/sn2info/v2/coverage/status/serial_numbers/%s) e 5000 consultas de produtos por dia (EOX - https://api.cisco.com/supporttools/eox/rest/5/EOXByProductID/%s).
+Importante lembrar algumas restrições das consultas via API: a)o token emitido pelo fabricante é válido por 3599 segundos, b) há um limite de 1000 consultas de número de série por dia para SN2Info e 5000 consultas de produtos por dia para EoX.
+
+SN2Info - https://api.cisco.com/sn2info/v2/coverage/status/serial_numbers/%s
+EoX -  https://api.cisco.com/supporttools/eox/rest/5/EOXByProductID/%s
 
 Por fim, com um dataframe pronto, foi gerado um aquivo .csv com as informações. Esse arquivo pode ser tratado então em outras ferramentas de business intelligence para as devidas tomadas de decisão.
 
