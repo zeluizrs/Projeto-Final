@@ -38,6 +38,7 @@ Então, foram criadas funções para as consultas baseadas no número de série 
 Importante lembrar algumas restrições das consultas via API: a)o token emitido pelo fabricante é válido por 3599 segundos, b) há um limite de 1000 consultas de número de série por dia para SN2Info e 5000 consultas de produtos por dia para EoX.
 
 SN2Info - https://api.cisco.com/sn2info/v2/coverage/status/serial_numbers/%s
+
 EoX -  https://api.cisco.com/supporttools/eox/rest/5/EOXByProductID/%s
 
 Por fim, com um dataframe pronto, foi gerado um aquivo .csv com as informações. Esse arquivo pode ser tratado então em outras ferramentas de business intelligence para as devidas tomadas de decisão.
