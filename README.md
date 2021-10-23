@@ -1,6 +1,6 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 
-# Tratamento de informações de inventário de equipamentos de rede IP: roteadores e switches Cisco
+# Tratamento e coleta de informações de inventário de equipamentos de rede IP: roteadores e switches Cisco
 
 #### Aluno: [Jose Luiz Gomes Ramos](https://github.com/zeluizrs).
 #### Orientadora: [Evelyn Batista](https://github.com/evelyncsbatista).
